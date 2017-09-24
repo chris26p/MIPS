@@ -50,6 +50,7 @@ typedef struct Lexeme_t {
 	char * data;					/**< Donnée éventuelle stockée sous forme de chaine de caractères.
 										 Pour les lexèmes mono-caractères identifiables par leur nature, on laisse NULL. */
 	int ligne;						/**< A voir si c'est nécessaire. */
+	struct Lexeme_t * suiv;			/**< Pointeur sur le prochain lexeme. A voir si nécessaire ainsi que précédent */
 } Lexeme_t;
 
 typedef struct Liste_lexeme_t {
