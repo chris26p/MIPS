@@ -69,6 +69,7 @@ Liste_lexeme_t *  lex_read_line( char *line, int nline) {
 					else etat=SYMBOLE;
 					break;
 					
+					
 				case DEUX_POINTS:
 				case VIRGULE:
 				case PARANTHESE_OUVRANTE:
